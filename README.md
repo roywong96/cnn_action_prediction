@@ -14,15 +14,16 @@
 **Metric Article:** [A Simple CNN: Multi Image Classifier](https://towardsdatascience.com/a-simple-cnn-multi-image-classifier-31c463324fa) <br/>
 
 
-## Introduction
+# Introduction
 
 aim of the study is to develop a deep convolutional neural network (CNN) for a multi-output classifier that can identify the actions of a person from still images.
 
 
-## EDA
+# Exploratory Data Analysis 
 
+# Model Building
 
 ## Feature Extraction
 
-
+# Error Analysis
 
