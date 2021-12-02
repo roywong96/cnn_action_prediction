@@ -10,8 +10,8 @@
 **Python Version:** 3.6 Google Colab <br/>
 **GPU:** NVIDIA Tesla K80 GPU
 **Packages:** numpy, pandas, seaborn, matplotlib, tensorflow, keras, Image <br/>
-**CNN Article:** [F-beta Score in Keras](https://towardsdatascience.com/f-beta-score-in-keras-part-i-86ad190a252f)
-**Metric Article:** [A Simple CNN: Multi Image Classifier](https://towardsdatascience.com/a-simple-cnn-multi-image-classifier-31c463324fa)
+**CNN Article:** [F-beta Score in Keras](https://towardsdatascience.com/f-beta-score-in-keras-part-i-86ad190a252f) <br/>
+**Metric Article:** [A Simple CNN: Multi Image Classifier](https://towardsdatascience.com/a-simple-cnn-multi-image-classifier-31c463324fa) <br/>
 
 
 ## Introduction
