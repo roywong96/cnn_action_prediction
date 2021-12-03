@@ -5,7 +5,7 @@
 - Since the number of training samples is small of approximate 1940 images, data augmentation is used which is a technique to randomly transform the images to artificially expand the training size.                                                                                                 
 - Model develop utilizes transfer learning with MobileNetV2’ blocks as features extraction.
 - Model comprised of two parts: one is used as the feature extractor that is made up of ‘MobileNetV2’ blocks, and the other is the classifier part which is made up of the fully connected layers and the output layer with Softmax as the chosen activation function for the final layer. 
-- 
+
 
 ## Reference
 
@@ -14,12 +14,14 @@
 **Packages:** numpy, pandas, seaborn, matplotlib, tensorflow, keras, Image <br/>
 **CNN Article:** [F-beta Score in Keras](https://towardsdatascience.com/f-beta-score-in-keras-part-i-86ad190a252f) <br/>
 **Metric Article:** [A Simple CNN: Multi Image Classifier](https://towardsdatascience.com/a-simple-cnn-multi-image-classifier-31c463324fa) <br/>
-
+**Data Generators:** [Keras data generators and how to use them](https://towardsdatascience.com/keras-data-generators-and-how-to-use-them-b69129ed779c) <br/>
 
 # Introduction
 
-Aim of the study is to develop a deep convolutional neural network (CNN) for a multi-output classifier that can identify the actions of a person from still images.
+**Aim:** develop a deep convolutional neural network (CNN) for a multi-output classifier that can identify the actions of a person from still images.
 
+- Specific to this project, a data generator is required as there is insufficient memory to load the dataset.
+- 
 
 # Exploratory Data Analysis 
 
@@ -31,6 +33,8 @@ Several Observations can be made from the intitial exploration of these images.
 - Images have different shapes. These images requires a common shape for transformation.
 - Some exmaple images are ambiguous. The final performance for the model may be affected.
 - In some images, the important information and features is toward a corner of the image. Data Augmentation needs to be done carefully.
+
+Now, 
 
 # Model Building
 
