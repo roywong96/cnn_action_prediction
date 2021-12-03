@@ -34,7 +34,9 @@ Several Observations can be made from the intitial exploration of these images.
 - Some exmaple images are ambiguous. The final performance for the model may be affected.
 - In some images, the important information and features is toward a corner of the image. Data Augmentation needs to be done carefully.
 
-Now, 
+Now, we can augment the images within the data generator.
+
+![](https://github.com/roywong96/cnn_action_prediction/blob/master/images/augmented_images.png)
 
 # Model Building
 
