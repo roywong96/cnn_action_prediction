@@ -19,7 +19,7 @@
 
 **Aim:** develop a deep convolutional neural network (CNN) for a multi-output classifier that can identify the actions of a person from still images.
 
-- Specific to this project, a data generator is required as there is insufficient memory to load the dataset.
+- A custom data generator is required as there is insufficient memory to load the dataset.
 - 
 
 # Exploratory Data Analysis 
