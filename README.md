@@ -30,6 +30,8 @@ Several Observations can be made from the intitial exploration of these images.
 
 # Model Building
 
+![](https://github.com/roywong96/cnn_action_prediction/blob/master/images/model.png)
+
 ## Feature Extraction
 
 # Error Analysis
