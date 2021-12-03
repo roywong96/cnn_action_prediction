@@ -2,9 +2,8 @@
 
 - Aim of the project is to develop Convolutional Neural Network for a multi-output predictions.
 - Obtained 3030 training and 2100 testing images containing 21 different actions under 5 action classes.
-- Since the number of training samples is small of approximate 1940 images, data augmentation is used which is a technique to randomly transform the images to artificially expand the training size.                                                                                                 
-- Model develop utilizes transfer learning with MobileNetV2’ blocks as features extraction.
-- Model comprised of two parts: one is used as the feature extractor that is made up of ‘MobileNetV2’ blocks, and the other is the classifier part which is made up of the fully connected layers and the output layer with Softmax as the chosen activation function for the final layer. 
+- Since the number of training samples is small of approximate 1940 images, data augmentation is used which is a technique to randomly transform the images to artificially expand the training size.
+- Model developed comprised of two parts: one is used as the feature extractor with Transfer Learning that is made up of ‘MobileNetV2’ blocks, and the other is the classifier part which is made up of the fully connected layers and the output layer with Softmax as the chosen activation function for the final layer. 
 
 
 ## Reference
