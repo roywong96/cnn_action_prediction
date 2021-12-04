@@ -18,10 +18,10 @@
 
 # Introduction
 
-**Aim:** develop a deep convolutional neural network (CNN) for a multi-output classifier that can identify the actions of a person from still images.
-
-- A custom data generator is required as there is insufficient memory to load the dataset.
-- 
+- Aim of this project is to develop a deep convolutional neural network (CNN) for a multi-output classifier that can identify the actions of a person from still images.
+- Before carrying out any investigation, it is clear a custom data/ image generator is required as there is insufficient memory to load the dataset.
+- There are 3030 training and 2100 testing images containing 21 different actions under 5 action classes.
+- The analysis is first done by carrying out Exploratory Data Analysis where images generated from the data generator is visualized.
 
 # Exploratory Data Analysis 
 
