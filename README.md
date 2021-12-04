@@ -23,6 +23,12 @@
 - There are 3030 training and 2100 testing images containing 21 different actions under 5 action classes.
 - The analysis is first done by carrying out Exploratory Data Analysis where images generated from the data generator is visualized.
 
+# Data Preprocessing
+
+- Data preprocessing is done on the dataset to encode all the categorical variables of actions and their action classes using Keras. 
+- Further pre-processing is done by splitting the train dataset into 20% test and 80% train set. 
+- The train set is then further split into 80% training and 20% validation data which will be used for model evaluations and improvements.
+
 # Exploratory Data Analysis 
 
 ![](https://github.com/roywong96/cnn_action_prediction/blob/master/images/diffSizeimages.png)
@@ -34,11 +40,12 @@ Several Observations can be made from the intitial exploration of these images.
 - Some exmaple images are ambiguous. The final performance for the model may be affected.
 - In some images, the important information and features is toward a corner of the image. Data Augmentation needs to be done carefully.
 
-Now, we can augment the images within the data generator.
+As observed, we can augment the images within the data generator.
 
 ![](https://github.com/roywong96/cnn_action_prediction/blob/master/images/augmented_images.png)
 
 # Model Building
+
 
 - Before any neural network is being developed, 
 - Baseline model is developed with Keras functional API that has a VGG-type network which have two convolutional layers with 3x3 filters along with a max pooling layer.
