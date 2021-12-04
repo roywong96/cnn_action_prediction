@@ -39,6 +39,7 @@ Now, we can augment the images within the data generator.
 
 # Model Building
 
+- Before any neural network is being developed, 
 - Baseline model is developed with Keras functional API that has a VGG-type network which have two convolutional layers with 3x3 filters along with a max pooling layer.
 - Since the baseline model failed
 
@@ -48,3 +49,5 @@ Now, we can augment the images within the data generator.
 
 # Error Analysis
 
+![](https://github.com/roywong96/cnn_action_prediction/blob/master/images/action_error.png)
+![](https://github.com/roywong96/cnn_action_prediction/blob/master/images/action_class_error.png)
