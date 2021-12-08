@@ -53,7 +53,7 @@ As observed, we can augment the images within the data generator.
 - As a result, **MobileNetV2** is selected for feature extraction because of its appropriate complexity for the task at hand.
 - The model development is followed by adding fully connected layers for classifying the action and the action class.
 
-<p float="left">
+<p float="mid">
     <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/model.png" width="50%" height="50%">
 </p>
 ![](https://github.com/roywong96/cnn_action_prediction/blob/master/images/model.png)
