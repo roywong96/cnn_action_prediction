@@ -42,7 +42,10 @@ Several Observations can be made from the intitial exploration of these images.
 
 As observed, we can augment the images within the data generator.
 
-![](https://github.com/roywong96/cnn_action_prediction/blob/master/images/augmented_images.png)
+<p allign="left">
+    <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/augmented_images.png" width="60%" height="60%">
+</p>
+
 
 # Model Building
 
