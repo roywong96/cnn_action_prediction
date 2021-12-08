@@ -66,7 +66,7 @@ The goal of this project is to achieve a 70% accuracy in prediction both classes
 
 
 <p float="left">
-    <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/action_error.png" width="40%" height="40%">
+    <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/action_error.png" width="50%" height="50%">
     <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/action_class_error.png" width="40%" height="40%">
 </p>
 
