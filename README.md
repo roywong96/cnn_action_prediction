@@ -48,13 +48,19 @@ As observed, we can augment the images within the data generator.
 
 
 - Before any neural network is being developed, 
-- Baseline model is developed with Keras functional API that has a VGG-type network which have two convolutional layers with 3x3 filters along with a max pooling layer.
+- **Baseline model** is developed with Keras functional API that has a VGG-type network which have two convolutional layers with 3x3 filters along with a max pooling layer.
 - Since model contains more complexity and features within each images, transfer learning with pre-trained model is required for model building.
 - As a result, **MobileNetV2** is selected for feature extraction because of its appropriate complexity for the task at hand.
+- The model development is followed by adding fully connected layers for classifying the action and the action class.
 
 ![](https://github.com/roywong96/cnn_action_prediction/blob/master/images/model.png)
 
-## Feature Extraction
+## Experiments and Tuning
+
+The goal of this project is to achieve a 70% accuracy in prediction both classes.
+
+- Augmented and non-augmented images were first fitted with **Baseline Model**. 
+
 
 # Error Analysis
 
