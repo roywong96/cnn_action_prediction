@@ -56,7 +56,6 @@ As observed, we can augment the images within the data generator.
 <p allign="left">
     <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/model.png" width="50%" height="50%">
 </p>
-![](https://github.com/roywong96/cnn_action_prediction/blob/master/images/model.png)
 
 ## Experiments and Tuning
 
