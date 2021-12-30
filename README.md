@@ -64,7 +64,10 @@ As observed, we can augment the images within the data generator.
 
 The goal of this project is to achieve a 70% accuracy in prediction both classes.
 
-- Augmented and non-augmented images were first fitted with **Baseline Model**. 
+- Augmented and non-augmented images were first fitted with **Baseline Model** under 100 epochs. 
+- The results revealed unrepresentative validation dataset. It implies that validation set did not provide sufficient information to evaluate the ability for the model to generalize.
+
+
 <p float="left">
     <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/aug_train_loss.png" width="30%" height="30%">
     <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/ori_train_loss.png" width="30%" height="30%">
