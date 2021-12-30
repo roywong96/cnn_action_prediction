@@ -65,6 +65,10 @@ As observed, we can augment the images within the data generator.
 The goal of this project is to achieve a 70% accuracy in prediction both classes.
 
 - Augmented and non-augmented images were first fitted with **Baseline Model**. 
+<p float="left">
+    <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/aug_train_loss.png" width="50%" height="50%">
+    <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/ori_train_loss.png" width="40%" height="40%">
+</p>
 
 
 # Error Analysis
