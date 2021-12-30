@@ -66,8 +66,8 @@ The goal of this project is to achieve a 70% accuracy in prediction both classes
 
 - Augmented and non-augmented images were first fitted with **Baseline Model**. 
 <p float="left">
-    <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/aug_train_loss.png" width="40%" height="40%">
-    <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/ori_train_loss.png" width="40%" height="40%">
+    <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/aug_train_loss.png" width="30%" height="30%">
+    <img src="https://github.com/roywong96/cnn_action_prediction/blob/master/images/ori_train_loss.png" width="30%" height="30%">
 </p>
 
 
